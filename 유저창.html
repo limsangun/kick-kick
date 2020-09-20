@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<title>킥킥</title>
+<meta charset="utf-8">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<style>
+	#click_btn{margin:0 auto; padding:5px 20px; background-color:white; width:50px; cursor:pointer; text-align:center; font-weight:bold; font-size:14px; color:blue; border-radius:0.5em;}
+	</style>
+	<style>
+	#click_btn1{margin:0 auto; padding:5px 20px; background-color:#3d73ff; width:50px; cursor:pointer; text-align:center; font-weight:bold; font-size:14px; color:white; border-radius:0.5em;}
+	</style>
+	<style>
+	#click_btn2{margin:0 auto; padding:5px 20px; background-color:#3d73ff; width:120px; cursor:pointer; text-align:center; font-weight:bold; font-size:14px; color:white; border-radius:0.5em;}
+	</style>
+	<style>
+	#click_btn3{margin:0 auto; padding:5px 20px; background-color:white; width:50px; cursor:pointer; text-align:center; font-weight:bold; font-size:14px; color:blue; border-radius:0.5em;}
+	</style>
+	<style>
+			#img { text-align: center; }
+			#text { border-bottom: solid 1px blue; text-align: center;}
+	</style>
+</head>
+<body>
+<h3><p style="text-align:center;">킥킥</p></h3>
+<div id="img"><img src="KakaoTalk_20200917_113823999_09.png" align="center" height="100px" align="center" alt="유저 이미지" title="유저 이미지"></div></br>
+<div id="click_btn2" style="border:1px solid DodgerBlue;">프로필 사진 변경</div></br></br><div id="text">
+이름:
+<div id="click_btn" style="border:1px solid DodgerBlue;">저장</div>
+</div>
+<script> 
+$('#click_btn').click(function(){
+	alert("저장 되었습니다.");
+});
+</script>
+
+<p id="text" align="center">알림<button style="border:1px solid gray;">on</button><button style="border:1px solid gray;">off</button></p>
+<p id="text" align="center">채팅<button style="border:1px solid gray;">on</button><button style="border:1px solid gray;">off</button></p>
+<div id="click_btn3" style="border:1px solid DodgerBlue;">저장</div>
+<script> 
+$('#click_btn3').click(function(){
+	alert("저장 되었습니다.");
+});
+</script></br>
+<div id="click_btn1" style="border:1px solid DodgerBlue;">로그아웃</div>
+<script> 
+$('#click_btn1').click(function(){
+	alert("로그아웃 되었습니다.");
+});
+</script>
+
+</body>
